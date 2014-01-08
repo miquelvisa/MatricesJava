@@ -8,7 +8,7 @@ public class VueltaAClase2 {
         Scanner sc=new Scanner(System.in);
         System.out.print("Introduce el numero de filas: ");
         int filas=sc.nextInt();
-        System.out.print("Introduce el numero de columnas: ");
+        System.out.print("Introduce el numero de col: ");
         int columnas=sc.nextInt();
         int[][] m=new int[filas][columnas];
         if(esCuadrada(m)){
