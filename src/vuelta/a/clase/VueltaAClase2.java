@@ -8,7 +8,7 @@ public class VueltaAClase2 {
         Scanner sc=new Scanner(System.in);
         System.out.print("Introduce el numero de filas: ");
         int filas=sc.nextInt();
-        System.out.print("Introduce el numero de col: ");
+        System.out.print("Introduce el numero de columnas: ");
         int columnas=sc.nextInt();
         int[][] m=new int[filas][columnas];
         if(esCuadrada(m)){
@@ -31,12 +31,12 @@ public class VueltaAClase2 {
     public static void rellenarM(int[][] m){
         Scanner sc=new Scanner(System.in);
         for(int i=0;i<m.length;i++){
-            System.out.println("Rellena la fila "+(i+1)+":"); //Para que el usuario no se lie, la fila 0 se le muestra como 1.
+            System.out.println("Rellena la fila "+(i+1)+":"); //Para que el usuario no se lie, la fila cero se le muestra como uno.
             for(int j=0;j<m[i].length;j++){
                 System.out.print("Dame un elemento: ");
                 m[i][j]=sc.nextInt();
             }
-            System.out.print("\n");
+            System.out.print("");
         }
     }
    public static boolean comprobarM(int[][] m){
@@ -68,3 +68,31 @@ public class VueltaAClase2 {
       }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Jose mola
